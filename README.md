@@ -7,29 +7,29 @@ The first step of this program I think needs to be plan. Plan plan plan and even
 ### The assignment
 You are tasked with building a console driven program that will simulate movements on a rubics cube. You must be able to output the state of the rubics cube in this format:
 
-`r|r|r
-r|r|r
-r|r|r
-
-b|b|b
-b|b|b
-b|b|b
-
-o|o|o
-o|o|o
-o|o|o
-
-g|g|g
-g|g|g
-g|g|g
-
-y|y|y
-y|y|y
-y|y|y
-
-w|w|w
-w|w|w
-w|w|w `
+`r|r|r`
+`r|r|r`
+`r|r|r`
+``
+`b|b|b`
+`b|b|b`
+`b|b|b`
+`
+`o|o|o`
+`o|o|o`
+`o|o|o`
+``
+`g|g|g`
+`g|g|g`
+`g|g|g`
+``
+`y|y|y`
+`y|y|y`
+`y|y|y`
+``
+`w|w|w`
+`w|w|w`
+`w|w|w`
 
 This program must include command line args to allow testing with predetermined inputs. You must also build a mode for when args are being used so that it will only output the final state of the rubics cube in the given format and terminate for testing reasons.
 
