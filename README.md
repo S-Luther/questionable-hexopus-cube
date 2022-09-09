@@ -1,8 +1,37 @@
-# Git and Github Assignment
+# The CUBE: multidimesnional array assignment
 This example project is written in Java, and tested with Gradle/JUnit.
 
+### My recommendations
+The first step of this program I think needs to be plan. Plan plan plan and eventually you will see how easy this assignment can be. If you skip the planning phase this assignment has the ability to be very tricky and even impossible if you find yourself far enough down the wrong path.
+
 ### The assignment
-There are tests being run automaticaly in this project that are failing. First branch this repository and clone it. Then make sure you are on your own branch and edit the program so that it would pass the tests. Next add, commit, and push your changes to your branch. Finally, open a pull request and this will alert me that you have completed this assignment. Do not merge your pull request.
+You are tasked with building a console driven program that will simulate movements on a rubics cube. You must be able to output the state of the rubics cube in this format:
+
+`r|r|r
+r|r|r
+r|r|r
+
+b|b|b
+b|b|b
+b|b|b
+
+o|o|o
+o|o|o
+o|o|o
+
+g|g|g
+g|g|g
+g|g|g
+
+y|y|y
+y|y|y
+y|y|y
+
+w|w|w
+w|w|w
+w|w|w `
+
+This program must include command line args to allow testing with predetermined inputs. You must also build a mode for when args are being used so that it will only output the final state of the rubics cube in the given format and terminate for testing reasons.
 
 ### Setup command
 N/A
