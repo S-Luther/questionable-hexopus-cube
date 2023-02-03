@@ -3,6 +3,8 @@
 ### My recommendations
 The first step of this program I think needs to be plan. Plan plan plan and eventually you will see how easy this assignment can be. If you skip the planning phase this assignment has the ability to be very tricky and even impossible if you find yourself far enough down the wrong path. Also, please collaborate if you are running into a wall. Feel free to share repositories and ideas.
 
+Additionally, I will release a video guiding you through the first 60 or so percent of the assignment a couple of weeks into it. To be clear I won't be giving you a good answer. It will be an answer that will be a bit greuling to use. So if you want to take the easy way I would encourage you to come up with a more elegant solution on your own.
+
 ### The assignment
 You are tasked with building a console driven program that will simulate movements on a rubics cube. You must be able to output the state of the rubics cube in this format:
 
@@ -30,6 +32,8 @@ You are tasked with building a console driven program that will simulate movemen
 `w|w|w`<br>
 `w|w|w`<br>
 
+This format will not necessarilly be a very intuitive one but you can use any format throughout your development cycle and just use this format for when command line args are used. This format will also force you to output faces individually and potentially by by name. For example, you may want to create a function that ill return the side based on color. Due to the fact that the middle square of the face should never change this will make that easy to verify.
+
 The inputs for this program will also be restricted to (u, d, r, l, f, b) or (u', d', r', l', f', b') which represent the moves in the diagram below.
 
 <p align="center">
@@ -52,16 +56,18 @@ This program must include command line args to allow testing with predetermined 
 ### Extra Credit
 You will get extra credit if you have your program return a shorter list of commands to solve the rubics cube than what is the commands already entered but in reverse.
 
+You can also get extra credit by building a randomizer of some sort. As long as the randomizer still puts the cube in a possible state.
+
 
 ### Setup command
 N/A
 
 ### Due Date
-29th of September at 11:00pm
+24th of February at 11:00pm
 
 
 ### Notes
-- The JDK is installed on GitHub Actions machines, so you're also able to directly invoke `javac`, `java`, or any other CLI command included in the JDK. No public tests on this one as it is complex enough that it would be a worthwhile endeavor to just write for the tests so I will execute them on submission.
+- The JDK is installed on GitHub Actions machines, so you're also able to directly invoke `javac`, `java`, or any other CLI command included in the JDK. There will be only one test run on this project so feel free to check your work against it. But also know that I have more test that I will run it against..
 
 
 
