@@ -71,6 +71,8 @@ N/A
 
 For Cube model: https://rubikscu.be
 
+Meet in the Middle Rubiks Cube Video: https://www.youtube.com/watch?v=wL3uWO-KLUE
+
 # All the Github Resources You Should Need
 
 # :wave: The Basics of GitHub 
