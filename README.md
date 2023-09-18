@@ -62,9 +62,6 @@ You can also get extra credit by building a randomizer of some sort. As long as 
 ### Setup command
 N/A
 
-### Due Date
-Part 1 due 23rd of June, Based on how that goes we will decide the part 2 due date.
-
 ### Notes
 - The JDK is installed on GitHub Actions machines, so you're also able to directly invoke `javac`, `java`, or any other CLI command included in the JDK. There will be only one test run on this project so feel free to check your work against it. But also know that I have more test that I will run it against..
 
